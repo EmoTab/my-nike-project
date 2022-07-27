@@ -3,16 +3,128 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f8cd4fb6e0.js" crossorigin="anonymous"></script>
     <title>Nike React</title>
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="./css/all.css">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
-      <section>
-        
+      <!-- navigation start -->
+      <section class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid m-4">
+              <a class="navbar-brand" href="#">
+                <img src="./icons/Logo.png" alt="" width="200px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ps-4">
+                    <a class="nav-link text-dark" href="#">Product</a>
+                  </li>
+                  <li class="nav-item ps-4">
+                    <a class="nav-link text-dark" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item ps-4">
+                    <a class="nav-link text-dark" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </section>
+      <!-- navigation end -->
+
+      <!-- banner start -->
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center mb-4">
+            <img class="w-100" src="./images/banner.png" alt="">
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center mt-4">
+            <div class="d-flex justify-content-center align-items-start flex-column">
+              <h4>
+                <span class="text-warning fs-1">NIKE REACT</span>
+                <br>
+                <span class="text-primary fs-1">INFINITY RUN 2</span>
+              </h4>
+              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Tenetur non iusto suscipit!</P>
+              <button class="btn btn-primary fs-4" type="submit">
+                <i class="fas fa-shopping-cart"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
     </header>
+
+    <main>
+      <!-- casual shoes start -->
+      <section class="container my-5">
+        <h2>CASUAL SHOES</h2>
+        <div class="row d-flex justify-content-evenly align-items-center">
+          <div class="card shadow-lg border-0" style="width: 18rem;">
+            <div class="img-holder mt-2 rounded-4 bg-secondary">
+              <img src="./images/cades-1.png" class="card-img-top image-fluid w-100" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Nike Shoe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-primary px-3 py-1"><i class="fas fa-shopping-cart pe-2"></i>BUY NOW</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="card shadow-lg border-0" style="width: 18rem;">
+            <div class="img-holder mt-2 rounded-4 bg-secondary">
+              <img src="./images/cades-2.png" class="card-img-top image-fluid w-100" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sneakers Skate Shoe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-primary px-3 py-1"><i class="fas fa-shopping-cart pe-2"></i>BUY NOW</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="card shadow-lg border-0" style="width: 18rem;">
+            <div class="img-holder mt-2 rounded-4 bg-secondary">
+              <img src="./images/cades-3.png" class="card-img-top image-fluid w-100" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sneakers Basketball Shoe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>$234</h3>
+                <button type="button" class="btn btn-primary px-3 py-1"><i class="fas fa-shopping-cart pe-2"></i>BUY NOW</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- casual shoes end -->
+    </main>
     <!-- bootstrap js -->
     <script src="./js/bootstrap.min.js"></script>
   </body>
